@@ -965,7 +965,7 @@ figcaption {
 
 .section-2.passthrough {
   position: fixed;
-  display: none;
+  display: block;
   height: 100%;
 }
 
