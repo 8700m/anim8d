@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Copy" transform="translate(-1356.000000, -715.000000)">
+            <g id="Group-9-Copy" transform="translate(1340.000000, 700.000000)">
+                <g id="Group" transform="translate(16.000000, 15.000000)">
+                    <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                    <path d="M3,21 L4.65,17.2 C2.03818182,13.4924132 2.59303482,8.42069168 5.94470783,5.36551862 C9.29638084,2.31034556 14.3976703,2.2262854 17.8481839,5.16937055 C21.2986976,8.11245569 22.0203498,13.1631426 19.5321053,16.9547694 C17.0438608,20.7463962 12.1231517,22.0942993 8.05,20.1 L3,21" id="Path" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M9,10 C9,10.2761424 9.22385763,10.5 9.5,10.5 C9.77614237,10.5 10,10.2761424 10,10 L10,9 C10,8.72385763 9.77614237,8.5 9.5,8.5 C9.22385763,8.5 9,8.72385763 9,9 L9,10 C9,12.7614237 11.2385763,15 14,15 L15,15 C15.2761424,15 15.5,14.7761424 15.5,14.5 C15.5,14.2238576 15.2761424,14 15,14 L14,14 C13.7238576,14 13.5,14.2238576 13.5,14.5 C13.5,14.7761424 13.7238576,15 14,15" id="Path" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
