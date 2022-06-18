@@ -165,10 +165,7 @@ figcaption {
 }
 
 .section {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   height: 80vh;
   margin-top: 0vh;
   margin-right: 30px;
@@ -950,7 +947,7 @@ figcaption {
   height: 100%;
 }
 
-.section-2 {
+.white-cover {
   position: absolute;
   left: 0%;
   top: 0%;
@@ -963,7 +960,7 @@ figcaption {
   background-color: #fff;
 }
 
-.section-2.passthrough {
+.white-cover.passthrough {
   position: fixed;
   display: block;
   height: 100%;
@@ -985,6 +982,32 @@ figcaption {
 
 .section-3 {
   overflow: hidden;
+}
+
+.text-block-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.text-block-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 991px) {
@@ -1141,6 +1164,10 @@ figcaption {
 
   .logo-link {
     padding-left: 0px;
+  }
+
+  .navigation-items {
+    padding-bottom: 4%;
   }
 
   .navigation {
