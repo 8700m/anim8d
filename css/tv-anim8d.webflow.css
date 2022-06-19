@@ -320,9 +320,9 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: transparent;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0)), color-stop(60%, #2c2c2c));
-  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0), #2c2c2c 60%);
+  background-color: rgba(44, 44, 44, 0);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(60%, #2c2c2c));
+  background-image: linear-gradient(180deg, transparent, #2c2c2c 60%);
 }
 
 .logo-image {
@@ -978,7 +978,7 @@ figcaption {
 
 .html-embed {
   overflow: hidden;
-  background-color: #2c2c2c;
+  background-color: rgba(44, 44, 44, 0);
   -webkit-transform: translate(0px, 1%);
   -ms-transform: translate(0px, 1%);
   transform: translate(0px, 1%);
@@ -1084,8 +1084,8 @@ figcaption {
 
   .navigation {
     padding: 25px 30px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0)), color-stop(86%, #fff));
-    background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0), #fff 86%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(44, 44, 44, 0)), color-stop(60%, #2c2c2c));
+    background-image: linear-gradient(180deg, rgba(44, 44, 44, 0), #2c2c2c 60%);
   }
 
   .menu-button {
@@ -1125,6 +1125,11 @@ figcaption {
   .trigger-lottie-2 {
     width: 24px;
     height: 24px;
+  }
+
+  .section-header {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(36%, #2c2c2c), to(rgba(44, 44, 44, 0)));
+    background-image: linear-gradient(180deg, #2c2c2c 36%, rgba(44, 44, 44, 0));
   }
 
   .container-copy {
@@ -1331,8 +1336,6 @@ figcaption {
   .navigation {
     padding-right: 20px;
     padding-left: 20px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0)), color-stop(78%, #fff));
-    background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0), #fff 78%);
   }
 
   .menu-button {
@@ -1396,6 +1399,10 @@ figcaption {
     overflow: visible;
     -o-object-fit: fill;
     object-fit: fill;
+  }
+
+  .white-cover.passthrough {
+    display: block;
   }
 }
 
